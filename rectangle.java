@@ -3,10 +3,10 @@ public class Rectangle
     private int width;
     private int height;
     
-    public Rectangle(int rectWidth, int rectHeight)
+    public Rectangle(int width, int height)
     {
-        width = rectWidth;
-        height = rectHeight;
+        this.width = width;
+        this.height = height;
     }
     
     public int getArea()
